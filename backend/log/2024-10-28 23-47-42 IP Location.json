@@ -1,0 +1,14 @@
+{
+  "timestamp": "2024-10-28 23-47-42",
+  "data": {
+    "clientIp": "133.106.44.199",
+    "ip": "133.106.44.199",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "country": "JP",
+    "loc": "35.6895,139.6917",
+    "org": "AS138384 Rakuten Mobile Network, Inc.",
+    "postal": "101-8656",
+    "timezone": "Asia/Tokyo"
+  }
+}

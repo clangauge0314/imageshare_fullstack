@@ -1,0 +1,158 @@
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.contact-content {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 100vw; /* Maximum width of the viewport */
+  max-height: 100vh; /* Maximum height of the viewport */
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  width: 100%; /* Adjust the width of the input fields */
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea.input-field {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%; /* Match input width */
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets (768px and larger) */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .contact-content {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile Phones (480px and smaller) */
+@media (max-width: 480px) {
+  .main-header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-icon {
+    font-size: 24px;
+  }
+
+  .contact-content {
+    padding: 10px;
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .input-group label {
+    font-size: 12px;
+  }
+
+  .input-field {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
